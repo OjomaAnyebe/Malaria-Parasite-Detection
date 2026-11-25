@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+Thumbs.db
+desktop.ini
+
+# Dataset files are not tracked until their public redistribution terms are verified.
+/data_set/
+/cell_images/
+/artifacts/malaria_classifier/dataset_split/
+/artifacts/malaria_classifier/*_manifest.csv
+/artifacts/malaria_classifier/unlabeled_images.csv
+/artifacts/malaria_classifier/sample_images.png
